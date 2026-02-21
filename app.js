@@ -13,3 +13,9 @@ for (let i = 0; i < scores.length; i++) {
 }
 
 console.log("totalScore:", totalScore);
+
+// 4 Use tags.forEach() to log each tag
+
+tags.forEach(function (tag) {
+  console.log("tag:", tag);
+});
