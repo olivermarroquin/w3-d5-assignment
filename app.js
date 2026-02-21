@@ -27,3 +27,5 @@ const doubledScores = scores.map(function (score) {
 });
 
 console.log("doubledScores:", doubledScores);
+
+//DONE
