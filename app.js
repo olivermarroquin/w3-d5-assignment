@@ -19,3 +19,11 @@ console.log("totalScore:", totalScore);
 tags.forEach(function (tag) {
   console.log("tag:", tag);
 });
+
+// 5 Use scores.map() to create doubledScores, then console.log(doubledScores)
+
+const doubledScores = scores.map(function (score) {
+  return score * 2;
+});
+
+console.log("doubledScores:", doubledScores);
